@@ -1,5 +1,6 @@
 # lab7
 //1.
+
 #include <iostream>
 
 float operator "" _Kelvin(const char* x)
@@ -23,15 +24,15 @@ int main()
 	return 0;
 }
 //2.
+
 #ifndef VECTOR_H
 #define VECTOR_H
-
 #include <iostream>
-#include <string>
-
+#include <string> 
 template <typename T>
-class Vector {
 
+       class Vector {
+       
 	int count;
 	int currentPosition;
 	T* vector;
